@@ -1,0 +1,43 @@
+{
+  "template": "https://github.com/scverse/cookiecutter-scverse",
+  "commit": "ec682215394b1ea0674e8a67d0853f01d8509263",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "LIMMPACT",
+      "package_name": "limmpact",
+      "project_description": "Analysis pipeline for light-sheet live imaging data",
+      "author_full_name": "Nicolas Luginbuehl",
+      "author_email": "nicolas.luginbuehl@gmail.com",
+      "github_user": "NicolasLuginbuehl",
+      "github_repo": "LIMMPACT",
+      "license": "MIT License",
+      "ide_integration": true,
+      "_copy_without_render": [
+        ".github/workflows/build.yaml",
+        ".github/workflows/test.yaml",
+        "docs/_templates/autosummary/**.rst"
+      ],
+      "_exclude_on_template_update": [
+        "CHANGELOG.md",
+        "LICENSE",
+        "README.md",
+        "docs/api.md",
+        "docs/index.md",
+        "docs/notebooks/example.ipynb",
+        "docs/references.bib",
+        "docs/references.md",
+        "src/**",
+        "tests/**"
+      ],
+      "_render_devdocs": false,
+      "_jinja2_env_vars": {
+        "lstrip_blocks": true,
+        "trim_blocks": true
+      },
+      "_template": "https://github.com/scverse/cookiecutter-scverse",
+      "_commit": "ec682215394b1ea0674e8a67d0853f01d8509263"
+    }
+  },
+  "directory": null
+}
