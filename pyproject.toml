@@ -3,7 +3,7 @@ build-backend = "hatchling.build"
 requires = [ "hatchling" ]
 
 [project]
-name = "LIMMPACT"
+name = "limmpact"
 version = "0.0.1"
 description = "Analysis pipeline for light-sheet live imaging data"
 readme = "README.md"
